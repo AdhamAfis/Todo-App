@@ -1,0 +1,36 @@
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore environment files for React app
+/todo-app/node_modules/
+/todo-app/.env.local
+/todo-app/.env.development.local
+/todo-app/.env.test.local
+/todo-app/.env.production.local
+/todo-app/package-lock.json
+
+# Ignore yarn lockfile for React app
+/todo-app/yarn.lock
+
+# Ignore build artifacts for React app
+/todo-app/build/
+/todo-app/dist/
+
+# Ignore IDE files for React app
+/todo-app/.idea/
+/todo-app/.vscode/
+
+# Ignore node_modules directory for Express app
+/todo-app-backend/node_modules/
+/todo-app-backend/package-lock.json
+
+# Ignore environment file for Express app
+/todo-app-backend/.env
+
+# Ignore build artifacts for Express app
+/todo-app-backend/build/
+/todo-app-backend/dist/
+
+# Ignore IDE files for Express app
+/todo-app-backend/.idea/
+/todo-app-backend/.vscode/

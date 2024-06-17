@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* white */
+    --foreground: 222.2 84% 4.9%; /* dark color */
+
+    --card: 0 0% 100%; /* white */
+    --card-foreground: 222.2 84% 4.9%; /* dark color */
+
+    --popover: 0 0% 100%; /* white */
+    --popover-foreground: 222.2 84% 4.9%; /* dark color */
+
+    --primary: 40 10% 95%; /* offwhite */
+    --primary-foreground: 210 40% 20%; /* dark grey */
+
+    --secondary: 230.85 55.36% 52.84%; /* light purple */
+    --secondary-foreground: 222.2 47.4% 11.2%; /* dark color */
+
+    --muted: 210 40% 96.1%; /* light grey */
+    --muted-foreground: 215.4 16.3% 46.9%; /* medium grey */
+
+    --accent: 210 40% 96.1%; /* light grey */
+    --accent-foreground: 222.2 47.4% 11.2%; /* dark color */
+
+    --destructive: 0 84.2% 60.2%; /* red */
+    --destructive-foreground: 210 40% 98%; /* white */
+
+    --border: 214.3 31.8% 91.4%; /* light grey */
+    --input: 214.3 31.8% 91.4%; /* light grey */
+    --ring: 222.2 84% 4.9%; /* dark color */
+
+    --radius: 0.5rem; /* border radius */
+
+    --button-bg: 265 80% 60%; /* purple */
+    --button-text: 210 40% 98%; /* white */
+  }
+}
