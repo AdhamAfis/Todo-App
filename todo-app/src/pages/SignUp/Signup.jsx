@@ -49,10 +49,10 @@ const SignUp = () => {
       if (response.status === 200) {
         setSuccessMessage("Sign up successful! Redirecting to sign in...");
         setTimeout(() => {
-          setSuccessMessage(""); // Clear success message
+          setSuccessMessage("");
 
           navigate("/");
-        }, 3000); // Redirect to sign in after 3 seconds
+        }, 3000);
       }
     } catch (error) {
       console.error("Error:", error.response.data);
